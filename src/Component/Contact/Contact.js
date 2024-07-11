@@ -79,7 +79,7 @@ function Contact() {
                             />
                             <input type="submit" value="Send Message" className="btn mt-2" />
                         </form>
-                        <span>{result}</span>
+                        <span className='span1'>{result}</span>
                     </section>
 
 
