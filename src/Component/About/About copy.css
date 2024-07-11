@@ -1,0 +1,57 @@
+/* About.css */
+
+.about-container {
+    padding: 40px 20px;
+    background-color: #222;
+
+}
+
+.content-about {
+    color: white;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.content-about h1 {
+    font-size: 2em;
+    /* margin-bottom: 20px; */
+}
+
+.content-about h4 {
+    font-size: 1.5em;
+    /* margin-bottom: 20px; */
+}
+
+.content-about p {
+    font-size: 1em;
+    /* margin-bottom: 20px; */
+}
+
+.content-about .highlight {
+    color: #dc965a;
+}
+
+.img-container {
+    text-align: center;
+}
+
+
+
+.img-container img {
+
+    border: 2px solid #dc965a;
+}
+
+@media (max-width: 768px) {
+    .content-about h1 {
+        font-size: 1.5em;
+    }
+
+    .content-about h4 {
+        font-size: 1.2em;
+    }
+
+    .content-about p {
+        font-size: 0.9em;
+    }
+}

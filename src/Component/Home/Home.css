@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    .list li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .buton-1 {
+        margin-top: 10px !important;
+    }
+}
+
+@media(max-width:990px) {
+    .buton-1 {
+        margin-top: 20px !important;
+    }
+
+    .width-01 {
+        width: 20vw !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .list {
+        display: none;
+        /* or any other style you want */
+    }
+}
+
+.index1 {
+    z-index: 100;
+}
+
+.width-01 {
+    width: 100vw;
+}
+
+.dropdown-menu {
+    margin-top: .5rem !important;
+    width: 98vw;
+    margin-left: -17vw;
+    border-top: 1px solid rgb(192, 190, 190);
+}
+
+.buton-1 {
+    width: 6rem;
+    height: 2.5rem;
+    background-color: rgb(16, 183, 16);
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    border-radius: 10px;
+    border: none;
+}

@@ -1,0 +1,119 @@
+/* Reset default margin and padding */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+/* Global styles */
+* {
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width */
+}
+
+/* Container styles */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    /* Adjust max-width as needed */
+    margin: 0 auto;
+    /* Center align the container */
+    padding: 20px;
+}
+
+/* Title styles */
+.edu-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+/* Education section styles */
+#education {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* padding-top: 20px; */
+}
+
+.edu-card {
+    width: 80%;
+    max-width: 600px;
+    /* Adjust max-width as needed */
+    height: 200px;
+    background-color: #dc965a;
+    margin-bottom: 20px;
+}
+
+.edu-content {
+    padding: 30px;
+    color: white;
+}
+
+.edu-content ul {
+    list-style: none;
+}
+
+.dark-bg {
+    font-size: 20px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.aducation-box li h6 {
+    padding-top: 20px;
+}
+
+/* Skills section styles */
+.skill {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.skill-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.progress {
+    height: 20px;
+}
+
+.progress-bar {
+    background-color: #dc965a;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    transition: width 0.6s ease;
+}
+
+.progress-bar span {
+    color: black;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#bar {
+    background-color: #dc965a;
+}
+
+/* Responsive styles */
+@media (max-width: 987px) {
+    .edu-title {
+        padding-top: 10px;
+    }
+
+    .skill {
+        padding-left: 50px;
+    }
+}

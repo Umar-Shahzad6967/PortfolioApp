@@ -1,0 +1,104 @@
+/* Contact Section */
+.contact {
+
+    padding: 30px;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #dc965a;
+    text-transform: uppercase;
+}
+
+.heading span {
+    color: #007bff;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.input-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+
+textarea {
+    padding: 10px;
+    color: white;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+/* Button */
+.btn {
+    background-color: #dc965a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 200px;
+
+
+}
+
+.btn:hover {
+    background-color: #f69036;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .input-box {
+        flex-direction: column;
+    }
+
+    .input-box input,
+    .input-box textarea {
+        margin-bottom: 10px;
+    }
+
+    .w-50 {
+        width: 100%;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 8px;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+}

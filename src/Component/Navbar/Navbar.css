@@ -1,0 +1,62 @@
+body {
+    background: rgba(11, 26, 51);
+}
+
+
+.navbar {
+    border-radius: 16px;
+    padding: 0.5rem;
+    /* position: fixed; */
+
+
+}
+
+.offcanvas-body {
+    background: rgba(11, 26, 51);
+}
+
+.sticky-navbar {
+    background-color: rgba(11, 26, 51);
+
+
+}
+
+@media(min-width:780px) {
+    .offcanvas-body {
+        background: none;
+    }
+}
+
+
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+
+
+
+.navbar-toggler {
+    background: white;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+
+    color: white !important;
+    border-bottom: 2px solid #dc965a;
+    /* same color on hover */
+}
+
+
+#logo {
+    font-weight: 500;
+    color: white;
+    font-size: 30px;
+}
