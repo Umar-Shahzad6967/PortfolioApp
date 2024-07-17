@@ -18,7 +18,7 @@ function About() {
                 <div className="col-lg-6 col-md-12 order-lg-2 order-1"
                     data-aos="flip-right"
                     data-aos-duration='1000'>
-                    <div className="img-container mt-4 img-fluid">
+                    <div className="img-container mt-4 w-75 mx-4">
                         <img src="/images/pic.jpeg" alt="Muhammad Umar Shahzad" />
                     </div>
                 </div>

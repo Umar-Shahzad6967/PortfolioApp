@@ -60,7 +60,7 @@
 
 @media (max-width: 440px) {
     .img-container {
-        width: 90%;
+        width: 100%;
         /* Adjust image container width for screens less than 440px */
     }
 }

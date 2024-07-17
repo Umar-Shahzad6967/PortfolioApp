@@ -1,8 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import "./Expence.css"
 import Typed from 'typed.js'
-import About from '../About/About'
-import Services from '../Services/Services'
+
 
 
 

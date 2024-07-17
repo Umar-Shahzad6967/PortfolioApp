@@ -52,10 +52,10 @@ const skills = [
 function Edu() {
     return (
         <>
-            <div className="conatiner" id='Edu'>
+            <div className="conatiner" >
                 <div className="row">
                     <div className="col-lg-12">
-                        <h1 className='edu-title'>Education and Skills</h1>
+                        <h1 className='edu-title' id='Edu'>Education and Skills</h1>
                     </div>
                 </div>
                 <div className="row" >
