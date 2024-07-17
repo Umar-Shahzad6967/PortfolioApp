@@ -28,7 +28,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    /* gap: 10px; */
+    padding: 0 5px;
     min-height: 70px;
     width: 100%;
     position: fixed;
@@ -54,7 +55,7 @@ a {
 
 /* media queries */
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1000px) {
 
     /* hamburger */
     .hamburger {
