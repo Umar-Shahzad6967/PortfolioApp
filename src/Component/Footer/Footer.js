@@ -8,7 +8,7 @@ import {
 
 const SocialShare = [
     { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/muhammad-umar-shahzad-8819002b7/" },
-    { Social: <FaGithub />, link: "https://github.com/Umar-Shahzad6967" },
+    { Social: <FaGithub />, link: "https://github.com/Umar-Shahzad6967?tab=repositories" },
 ];
 
 const Footer = () => {

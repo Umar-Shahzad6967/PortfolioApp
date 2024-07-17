@@ -1,9 +1,6 @@
-/* About.css */
-
 .about-container {
     padding: 40px 20px;
     background-color: #222;
-
 }
 
 .content-about {
@@ -14,17 +11,14 @@
 
 .content-about h1 {
     font-size: 2em;
-    /* margin-bottom: 20px; */
 }
 
 .content-about h4 {
     font-size: 1.5em;
-    /* margin-bottom: 20px; */
 }
 
 .content-about p {
     font-size: 1em;
-    /* margin-bottom: 20px; */
 }
 
 .content-about .highlight {
@@ -33,12 +27,18 @@
 
 .img-container {
     text-align: center;
+    width: 100%;
+    /* Set default width to 100% */
+    display: flex;
+    justify-content: center;
+    /* Center the image horizontally */
 }
 
-
-
 .img-container img {
-
+    width: 100%;
+    /* Ensure the image takes full width of the container */
+    max-width: 100%;
+    /* Prevent image from exceeding the container's width */
     border: 2px solid #dc965a;
 }
 
@@ -53,5 +53,14 @@
 
     .content-about p {
         font-size: 0.9em;
+    }
+}
+
+
+
+@media (max-width: 440px) {
+    .img-container {
+        width: 90%;
+        /* Adjust image container width for screens less than 440px */
     }
 }

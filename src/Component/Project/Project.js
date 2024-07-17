@@ -38,7 +38,7 @@ function Project() {
                     </div>
                     {ServiceContent.slice(0, visibleCount).map((val, i) => (
                         <div className="col-lg-4 col-md-6 col-sm-12" key={i}>
-                            <div className="card" style={{ width: '30rem' }}>
+                            <div className="card" >
                                 <img src={val.image} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">{val.title}</h5>

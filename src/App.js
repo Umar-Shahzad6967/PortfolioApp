@@ -7,8 +7,8 @@ import Expence from './Component/Expence/Expence.js';
 import Navbar from './Component/Navbar/Navbar.js';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-// import "../node_modules/bootstrap/dist/css/bootstrap.css"
-// import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js"
 import Services from './Component/Services/Services.js';
 import Edu from './Component/Edu/Edu.js';
 import Contact from './Component/Contact/Contact.js';
